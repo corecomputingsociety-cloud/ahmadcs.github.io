@@ -1,69 +1,105 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #f4f6f9;
-    color: #333;
+margin:0;
+font-family:Segoe UI, Arial;
+background:#f4f6fa;
+color:#222;
 }
 
 header {
-    background: #0a2540;
-    color: white;
-    text-align: center;
-    padding: 30px;
+background:#0b1f3a;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+.logo {
+width:90px;
+margin-bottom:10px;
 }
 
 nav {
-    background: #102a43;
-    text-align: center;
-    padding: 10px;
+background:#132f4c;
+padding:12px;
+text-align:center;
 }
 
 nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-weight:600;
 }
 
 section {
-    padding: 40px;
-    max-width: 1000px;
-    margin: auto;
+padding:50px;
+max-width:1100px;
+margin:auto;
 }
 
 h2 {
-    text-align: center;
-    margin-bottom: 30px;
-    color: #0a2540;
+text-align:center;
+margin-bottom:30px;
+color:#0b1f3a;
 }
 
 .card-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+display:flex;
+justify-content:center;
+gap:25px;
+flex-wrap:wrap;
 }
 
 .card {
-    background: white;
-    padding: 20px;
-    width: 250px;
-    text-align: center;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+background:white;
+padding:20px;
+width:260px;
+text-align:center;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card img {
+width:120px;
+height:120px;
+border-radius:50%;
+object-fit:cover;
+margin-bottom:10px;
+}
+
+.role {
+color:#0b1f3a;
+font-weight:bold;
 }
 
 .committee {
-    background: white;
-    padding: 20px;
-    margin-bottom: 15px;
-    border-left: 5px solid #0a2540;
-    border-radius: 5px;
+background:white;
+padding:20px;
+margin-bottom:20px;
+border-left:6px solid #0b1f3a;
+border-radius:6px;
+}
+
+.members img {
+width:70px;
+height:70px;
+border-radius:50%;
+margin-right:10px;
+}
+
+.social {
+text-align:center;
+margin-top:15px;
+}
+
+.social a {
+font-size:30px;
+color:#0b1f3a;
+margin:0 15px;
 }
 
 footer {
-    background: #0a2540;
-    color: white;
-    text-align: center;
-    padding: 15px;
+background:#0b1f3a;
+color:white;
+text-align:center;
+padding:15px;
 }
